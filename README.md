@@ -88,3 +88,50 @@ Ce tableau recense les 30 données principales nécessaires au système.
 | Moyen de paiement utilisé | Texte | 20 |
 
 ---
+
+A. Les Entités (Rectangles)
+Crée ces 6 blocs et mets les données correspondantes à l'intérieur :
+
+FILM (Clé : Identifiant du film)
+
+SALLE (Clé : Numéro de la salle)
+
+SÉANCE (Clé : Numéro de la séance)
+
+EMPLOYÉ (Clé : Identifiant de l'employé)
+
+CLIENT (Clé : Identifiant du client)
+
+BILLET (Clé : Numéro du billet)
+
+B. Les 3 points clés pour la note (Modélisation avancée)
+L'Association Récursive (La Suite) :
+
+Trace un lien qui part de FILM et revient sur FILM.
+
+Nomme l'association : est la suite de.
+
+Cardinalités : (0,1) d'un côté et (0,1) de l'autre.
+
+L'Entité Faible (Identifiant Relatif) :
+
+Relie SÉANCE à FILM avec l'association concerner.
+
+Cardinalités : FILM (0,N) --- (1,1) SÉANCE.
+
+Dans Looping : Double-clique sur le trait côté SÉANCE et coche la case Identifiant relatif (ou "Identifiant faible"). Cela affichera le (1,1) entre parenthèses ou avec un trait.
+
+L'Association n-aire (La Projection) :
+
+Crée une grosse bulle d'association nommée PROJETER.
+
+Relie-la à 3 entités : FILM, SALLE et EMPLOYÉ.
+
+Cela montre qu'une projection réunit un film, une salle et un technicien.
+
+C. Les autres relations simples
+CLIENT (0,N) --- acheter --- (1,1) BILLET
+
+SÉANCE (1,N) --- réserver --- (1,1) BILLET
+
+Conseil final : Une fois le schéma fini sur Looping, va dans le menu Modèle > Générer le MLD. Si Looping ne te donne pas d'erreur, c'est que ta structure est parfaite pour être rendue sur GitHub !
