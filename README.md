@@ -12,6 +12,8 @@ Ensuite, à partir de ces règles, fournis un dictionnaire de données brutes av
 
 Fournis donc les règles de gestion et le dictionnaire de données.
 
+REPONSE DE L'IA:
+
 "Voici le résultat de l'**étape 1** (analyse des besoins) pour le domaine du **cinéma**, en suivant strictement la structure du prompt de référence que vous avez fourni.
 
 ### Analyse des besoins : Complexe Cinématographique
