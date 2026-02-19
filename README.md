@@ -88,20 +88,3 @@ Ce tableau recense les 30 données principales nécessaires au système.
 | Moyen de paiement utilisé | Texte | 20 |
 
 ---
-
-### Étape 2 : Ébauche de modélisation (MCD)
-
-Conformément aux exigences de modélisation avancée:
-
-1. 
-**Entité Faible** : La `Séance` sera une entité faible dépendant de `Film`.
-
-
-
-3. 
-**Association n-aire** : Une association `PROJETER` liera `Film`, `Salle` et `Employé`.
-
-
-4. 
-**Association Récursive** : Une relation sur l'entité `Film` pour gérer les "Suites" (un film est la suite d'un autre).
-"
