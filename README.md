@@ -1,5 +1,18 @@
-# ProjetDB Nassim Alain
-Voici le résultat de l'**étape 1** (analyse des besoins) pour le domaine du **cinéma**, en suivant strictement la structure du prompt de référence que vous avez fourni.
+Tu travailles dans le domaine du cinéma et du divertissement. Ton organisation a comme activité de gérer la programmation des films, la diffusion des séances en salle et la vente de billets.
+
+C’est une organisation comme Pathé ou UGC. Les données ont été collectées sur les films (titres, durées, suites), les salles de projection (capacités), les séances (horaires), les employés (projectionnistes et accueil), les clients fidélisés et les réservations de places.
+
+Inspire-toi du site web suivant : https://www.allocine.fr.
+
+Ton organisation veut appliquer MERISE pour concevoir un système d'information. Tu es chargé de la partie analyse, c’est-à-dire de collecter les besoins auprès de l’entreprise. Elle a fait appel à un étudiant en ingénierie informatique pour réaliser ce projet, tu dois lui fournir les informations nécessaires pour qu’il applique ensuite lui-même les étapes suivantes de conception et développement de la base de données.
+
+D’abord, établis les règles de gestions des données de ton organisation, sous la forme d'une liste à puce. Elle doit correspondre aux informations que fournit quelqu’un qui connaît le fonctionnement de l’entreprise, mais pas comment se construit un système d’information.
+
+Ensuite, à partir de ces règles, fournis un dictionnaire de données brutes avec les colonnes suivantes, regroupées dans un tableau : signification de la donnée, type, taille en nombre de caractères ou de chiffres. Il doit y avoir entre 25 et 35 données. Il sert à fournir des informations supplémentaires sur chaque donnée (taille et type) mais sans a priori sur comment les données vont être modélisées ensuite.
+
+Fournis donc les règles de gestion et le dictionnaire de données.
+
+"Voici le résultat de l'**étape 1** (analyse des besoins) pour le domaine du **cinéma**, en suivant strictement la structure du prompt de référence que vous avez fourni.
 
 ### Analyse des besoins : Complexe Cinématographique
 
@@ -91,3 +104,4 @@ Conformément aux exigences de modélisation avancée:
 
 4. 
 **Association Récursive** : Une relation sur l'entité `Film` pour gérer les "Suites" (un film est la suite d'un autre).
+"
