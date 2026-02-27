@@ -1,6 +1,4 @@
 Projet SDD : Gestion Cinématographique
-Ce dépôt contient le travail d'analyse et de modélisation pour un complexe de cinémas (type Pathé/UGC).
-
 I. Analyse des besoins (Étape 1)
 I.A. Le Prompt utilisé (Framework RICARDO)
 Conformément aux consignes, voici le prompt final complété qui a servi à interroger l'IA :
@@ -24,6 +22,9 @@ Une projection (séance) nécessite la présence d'un employé technique (projec
 
 Les clients peuvent s'inscrire au programme de fidélité avec leur nom, prénom et email.
 
+Signification de la donnéeTypeTailleIdentifiant du filmAlphanumérique10Titre du filmTexte100Durée du film (en minutes)Numérique3Genre du filmTexte30Date de sortie nationaleDate10Synopsis du filmTexte500Identifiant du film précédent (pour les suites)Alphanumérique10Numéro de la salleNumérique2Capacité de la salle (nombre de sièges)Numérique3Type de projecteur (Laser, Numérique, 3D)Texte20Numéro de la séanceNumérique8Date de la séanceDate10Heure de début de la séanceHeure5Prix de base de la séanceNumérique5Identifiant de l'employéAlphanumérique10Nom de l'employéTexte50Prénom de l'employéTexte50Rôle/Poste de l'employéTexte30Date d'embauche de l'employéDate10Identifiant du clientAlphanumérique10Nom du clientTexte50Prénom du clientTexte50Adresse email du clientTexte100Date de naissance du clientDate10Points de fidélité accumulésNumérique6Numéro du billetNumérique12Date d'achat du billetDate10Rangée du siège réservéTexte2Numéro du siège réservéNumérique3Moyen de paiement utiliséTexte20
+
 Un client peut acheter plusieurs billets, chaque billet étant lié à une séance spécifique.
 
 Les employés sont définis par leur nom, leur rôle et leur date d'embauche.
+
