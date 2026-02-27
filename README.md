@@ -86,7 +86,7 @@ Le MCD respecte la 3ème Forme Normale (3FN) et intègre les deux éléments de 
 
 ### II.B. Schéma du MCD
 
-<img width="1305" height="559" alt="image" src="https://github.com/user-attachments/assets/3421e4b3-2679-4134-9641-bd4ef2ed36c6" />
+<img width="1624" height="666" alt="image" src="https://github.com/user-attachments/assets/c440af2f-558e-47d3-9c2f-6f0c6fb3e1db" />
 
 
 
