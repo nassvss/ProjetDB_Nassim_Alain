@@ -104,6 +104,6 @@ Le MCD respecte la 3ème Forme Normale (3FN) et intègre les deux éléments de 
 **Associations :**
 - `EST LA SUITE DE` : récursive sur FILM (0,1 — 0,1)
 - `CONCERNER` : FILM (0,n) — SÉANCE (1,1) — un film peut avoir plusieurs séances, une séance concerne exactement un film
-- `PROJETER` : ternaire entre EMPLOYÉ (0,n), SALLE (0,n) et SÉANCE — une séance est assurée par un employé dans une salle
+- `PROJETER` : ternaire entre EMPLOYÉ (0,n), SALLE (0,n) et SÉANCE (1,1) — une séance est assurée par exactement un employé dans exactement une salle
 - `RESERVER` : SÉANCE (1,n) — BILLET (1,1) — une séance peut avoir plusieurs billets, un billet est lié à une séance
 - `ACHETER` : CLIENT (0,n) — BILLET (1,1) — un client peut acheter plusieurs billets, un billet est acheté par un seul client
