@@ -86,7 +86,9 @@ Le MCD respecte la 3ème Forme Normale (3FN) et intègre les deux éléments de 
 
 ### II.B. Schéma du MCD
 
-![MCD Gestion Cinématographique](https://github.com/user-attachments/assets/9cd70cac-bd9a-47cd-b238-310698ea2056)
+<img width="1368" height="542" alt="image" src="https://github.com/user-attachments/assets/ec8d643c-38ed-491b-9984-ba5295fbec45" />
+
+
 
 ### II.C. Description des entités et associations
 
