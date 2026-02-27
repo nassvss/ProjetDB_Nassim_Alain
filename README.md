@@ -62,5 +62,4 @@ Les employés sont définis par leur nom, leur rôle et leur date d'embauche.
 | Moyen de paiement utilisé | Texte | 20 |
 
 <img width="1332" height="596" alt="image" src="https://github.com/user-attachments/assets/9cd70cac-bd9a-47cd-b238-310698ea2056" />
-<img width="1332" height="596" alt="image" src="https://github.com/user-attachments/assets/9cd70cac-bd9a-47cd-b238-310698ea2056" />
 
