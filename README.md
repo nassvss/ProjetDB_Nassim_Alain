@@ -1,4 +1,4 @@
-Projet Système d'Information : Gestion Cinématographique
+Projet SDD : Gestion Cinématographique
 Ce dépôt contient le travail d'analyse et de modélisation pour un complexe de cinémas (type Pathé/UGC).
 
 I. Analyse des besoins (Étape 1)
@@ -60,3 +60,7 @@ Les employés sont définis par leur nom, leur rôle et leur date d'embauche.
 | Rangée du siège réservé | Texte | 2 |
 | Numéro du siège réservé | Numérique | 3 |
 | Moyen de paiement utilisé | Texte | 20 |
+
+<img width="1332" height="596" alt="image" src="https://github.com/user-attachments/assets/9cd70cac-bd9a-47cd-b238-310698ea2056" />
+<img width="1332" height="596" alt="image" src="https://github.com/user-attachments/assets/9cd70cac-bd9a-47cd-b238-310698ea2056" />
+
