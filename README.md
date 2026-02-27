@@ -136,4 +136,3 @@ CLIENT (0,N) --- acheter --- (1,1) BILLET
 
 SÉANCE (1,N) --- réserver --- (1,1) BILLET
 
-Conseil final : Une fois le schéma fini sur Looping, va dans le menu Modèle > Générer le MLD. Si Looping ne te donne pas d'erreur, c'est que ta structure est parfaite pour être rendue sur GitHub !
