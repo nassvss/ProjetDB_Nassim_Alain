@@ -1,8 +1,6 @@
-Rôle : Tu es un générateur de données SQL pour une base de données de gestion cinématographique.
-
-Contexte : Je travaille sur une base de données représentant un complexe de cinéma de type Pathé / UGC. La base contient les tables FILM, SALLE, EMPLOYE, CLIENT, SEANCE et BILLET.
-
-Références : Les colonnes sont les suivantes :
+Tu es un générateur de données SQL pour une base de données de gestion cinématographique.
+Je travaille sur une base de données représentant un complexe de cinéma de type Pathé / UGC. La base contient les tables FILM, SALLE, EMPLOYE, CLIENT, SEANCE et BILLET.
+Les colonnes sont les suivantes :
 
 FILM(id_film, titre, duree, genre, date_sortie, synopsis, id_film_precedent)
 SALLE(numero_salle, capacite, type_projecteur)
@@ -31,4 +29,5 @@ Instructions :
 - Commence par FILM, puis SALLE, EMPLOYE, CLIENT, SEANCE, puis BILLET.
 
 Rendement :
+
 Fournis uniquement une suite de requêtes INSERT INTO compatibles avec MySQL pour alimenter la base.
