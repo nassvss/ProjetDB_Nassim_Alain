@@ -107,3 +107,19 @@ Le MCD respecte la 3ème Forme Normale (3FN) et intègre les deux éléments de 
 - `PROJETER` : ternaire entre EMPLOYÉ (0,n), SALLE (0,n) et SÉANCE (1,1) — une séance est assurée par exactement un employé dans exactement une salle
 - `RESERVER` : SÉANCE (1,n) — BILLET (1,1) — une séance peut avoir plusieurs billets, un billet est lié à une séance
 - `ACHETER` : CLIENT (0,n) — BILLET (1,1) — un client peut acheter plusieurs billets, un billet est acheté par un seul client
+- 
+
+
+### III.A MLD
+
+
+FILM = (id_film VARCHAR(50), Titre VARCHAR(50), Durée INT, Genre VARCHAR(50), Date_sortie DATE, Synopsis VARCHAR(50), #id_film_1*);
+SALLE = (numero_salle INT, Capacité INT, Type_projecteur VARCHAR(50));
+EMPLOYÉ = (id_employé VARCHAR(50), Nom VARCHAR(50), Prenom VARCHAR(50), Rôle VARCHAR(50), Date_embauche DATE);
+CLIENT = (id_client VARCHAR(50), Nom VARCHAR(50), Prenom VARCHAR(50), Email VARCHAR(50), Date_de_naissance VARCHAR(50), Points_fidélité INT);
+SÉANCE = (numero_seance VARCHAR(50), Date_séance DATE, Heure_début TIME, Prix_base INT, #numero_salle, #id_employé, #id_film);
+BILLET = (numero_billet VARCHAR(50), Date_achat_billet VARCHAR(50), Rangee_siege_reserve VARCHAR(50), Numero_siege_reserve VARCHAR(50), Moyen_paiement_utilise VARCHAR(50), #id_client, #numero_seance);
+
+
+
+### III.B  MPD
